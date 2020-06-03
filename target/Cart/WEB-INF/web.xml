@@ -1,0 +1,71 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>ProductListServlet</servlet-name>
+    <servlet-class>servlet.ProductListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductListServlet</servlet-name>
+    <url-pattern>/listProduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OrderItemAddServlet</servlet-name>
+    <servlet-class>servlet.OrderItemAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderItemAddServlet</servlet-name>
+    <url-pattern>/addOrderItem</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OrderItemListServlet</servlet-name>
+    <servlet-class>servlet.OrderItemListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderItemListServlet</servlet-name>
+    <url-pattern>/listOrderItem</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderItemDeleteServlet</servlet-name>
+    <servlet-class>servlet.OrderItemDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderItemDeleteServlet</servlet-name>
+    <url-pattern>/deleteOrderItem</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OrderCreateServlet</servlet-name>
+    <servlet-class>servlet.OrderCreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderCreateServlet</servlet-name>
+    <url-pattern>/createOrder</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OrderListServlet</servlet-name>
+    <servlet-class>servlet.OrderListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderListServlet</servlet-name>
+    <url-pattern>/listOrder</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
